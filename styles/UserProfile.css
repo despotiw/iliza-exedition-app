@@ -1,1 +1,16 @@
 
+/* src/styles/UserProfile.css */
+.user-profile {
+  padding: 1rem;
+}
+.user-profile form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.booking-history {
+  margin-top: 2rem;
+  text-align: center;
+}
