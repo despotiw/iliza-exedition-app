@@ -1,1 +1,26 @@
+/* src/styles/Explore.css */
+.explore-page {
+  padding: 1rem;
+}
+
+.view-toggle {
+  margin: 1rem 0;
+}
+
+.pois-container.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.pois-container.list {
+  display: block;
+}
+
+.map-view {
+  width: 100%;
+  height: 400px;
+  background-color: #ddd;
+  margin-top: 1rem;
+}
 
